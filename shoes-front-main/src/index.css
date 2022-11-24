@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.order-area{
+  margin-top: 50px;
+  }
+  .order-total{
+    margin-top: 10px;
+    background: #053742;
+    color: white;
+    font-weight: bold;
+  }
+  .order-card,
+  .order-total{
+    margin: 0 0 10px 20%;
+    border: 1px solid #053742;
+    width: 60%;
+    padding: 10px;
+  }
+  .order-item,
+  .order-qty,
+  .order-price{
+    display: inline-flex;
+    min-width: 28%;
+  
+  }
+  .qty-btn{
+    font-weight: bold;
+    background: white;
+    outline: none;
+    border: 1px solid #053742;
+    padding: 2px 7px;
+  
+  }
+  .qty-btn:hover{
+    background: #053742;
+    color: white;
+  
+  }
+  .qty-btn:active{
+    background: #51c4d3;
+  
+  }
+  .qty-input{
+    width: 30px;
+    text-align: center;
+  
+  }
+  .delete-btn{
+  color: red;
+  outline: none;
+  border:1px solid red ;
+  border-radius: 20px;
+  background: white;
+  font-weight: bold;
+  margin-left: 30px;
+  }
+  .delete-btn:hover{
+  background: red;
+  color: white;
+  }
+  .delete-btn:active{
+    background: crimson;
+    border: 1px solid green;
+  }
+  .total,.total-price{
+    display: inline-flex;
+  }
+  .total{
+    min-width: 55%;
+  }
+  .total-price{
+    min-width: 33%;
+    text-align: right;
+  
+  }
+  .place-order-btn{
+    border: 1px solid rgb(255, 238, 0);
+    background-color:rgb(255, 238, 0) ;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+  
+  }
+  .place-order-btn:hover{
+    border: 1px solid rgb(255, 188, 3);
+    background-color: rgb(255, 188, 3);
+  
+  }
+  .place-order-:active{
+  border: 1px solid rgb(251, 255, 0);
+  background-color: rgb(251, 255, 0);
+  }
+
+  .show-btn{
+    
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float:right;
+  margin-top: 0.2em;
+  border-radius: 1em;
+ 
+   
+  }
+  .show-btn:hover{
+    background: rgb(0, 119, 255);
+  color: white;
+
+  }
+.mens{
+  margin-top: 4em;
+  padding: 10px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  display: table;
+}
+
+.sign{
+  color: #242424;
+  background-color: antiquewhite;
+}
+
+.signup, .signin{
+  background-color: #242424;
+  min-height: 100vh;
+  color: #242424;
+  font-weight: 900;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.outcard {
+  background-color: white;
+
+}
+
+.Signup-style{
+  background-color: white;
+}
+
+.link-bt{
+  text-decoration: none;
+  background-color: blue;
+  max-width: 100px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.link-bt:hover{
+  background-color: lightblue;
+  color: white;
+}
+
+.redirecting{
+  color: greenyellow;
+  /* background: yellow; */
+  margin: auto;
+}
+
+.header-r{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout{
+  background-color: white;
+  border: none;
+  color: #242424;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
